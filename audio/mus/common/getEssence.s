@@ -1,6 +1,6 @@
 musGetEssenceStart:
 
-musGetEssenceChannel1:
+musGetEssenceChannel3:
 	duty $00
 	vol $b
 	note a5  $06
@@ -28,7 +28,7 @@ musGetEssenceChannel1:
 	note d6  $52
 	cmdff
 
-musGetEssenceChannel0:
+musGetEssenceChannel2:
 	duty $00
 	vol $c
 	note c5  $06
@@ -56,7 +56,7 @@ musGetEssenceChannel0:
 	note f5  $52
 	cmdff
 
-musGetEssenceChannel4:
+musGetEssenceChannel5:
 	duty $0a
 	note f3  $06
 	rest $04
@@ -71,7 +71,7 @@ musGetEssenceChannel4:
 	note as3 $4b
 	cmdff
 
-musGetEssenceChannel6:
+musGetEssenceChannel7:
 	vol $0
 	note $30 $1b
 	vol $5

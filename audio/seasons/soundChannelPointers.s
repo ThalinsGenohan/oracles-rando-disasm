@@ -172,14 +172,14 @@ musFairyFountain:
 	.db $ff
 
 musGetEssence:
-	.db $00
-	.dw musGetEssenceChannel0
-	.db $01
-	.dw musGetEssenceChannel1
-	.db $04
-	.dw musGetEssenceChannel4
-	.db $06
-	.dw musGetEssenceChannel6
+	.db $72
+	.dw musGetEssenceChannel2
+	.db $73
+	.dw musGetEssenceChannel3
+	.db $75
+	.dw musGetEssenceChannel5
+	.db $77
+	.dw musGetEssenceChannel7
 	.db $ff
 
 musFileSelect:
