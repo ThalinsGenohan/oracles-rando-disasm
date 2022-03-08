@@ -287,7 +287,7 @@ group1Map5eObjectData:
 	obj_End
 
 group1Map1bObjectData:
-	obj_Interaction $6b $19 $68 $50
+	obj_Interaction $6b $19 $68 $50 ; gasha seed
 	obj_Interaction $4c $02 $38 $10
 	obj_End
 
@@ -297,7 +297,7 @@ group1Map1cObjectData:
 	obj_End
 
 group1Map1dObjectData:
-	obj_Interaction $6b $19 $48 $48
+	obj_Interaction $6b $19 $48 $48 ; gasha seed
 	obj_Interaction $4c $02 $28 $10
 	obj_Interaction $4c $03 $18 $90
 	obj_End
@@ -314,7 +314,7 @@ group1Map3bObjectData:
 
 group1Map3cObjectData:
 	obj_Interaction $93 $00 $30 $50
-	obj_Interaction $6b $19 $68 $68
+	obj_Interaction $6b $19 $68 $68 ; gasha seed
 	obj_Interaction $4c $02 $68 $10
 	obj_End
 
@@ -368,7 +368,7 @@ group0Mapd0ObjectData:
 	obj_End
 
 group0Mapd1ObjectData:
-	obj_Interaction $6b $0a $18 $18
+	obj_Interaction $6b $0a $18 $18 ; heart piece
 	obj_Pointer group0Mapd1EnemyObjectData
 	obj_End
 
@@ -389,7 +389,7 @@ group0Mapd7ObjectData:
 	obj_End
 
 group0Mapd8ObjectData:
-	obj_Interaction $6b $0a $18 $78
+	obj_Interaction $6b $0a $18 $78 ; heart piece
 	obj_Interaction $8a $04 $58 $48
 	obj_End
 
@@ -567,7 +567,7 @@ group1Map86ObjectData:
 	obj_End
 
 group1Map87ObjectData:
-	obj_Interaction $6b $19 $18 $38
+	obj_Interaction $6b $19 $18 $38 ; gasha seed
 	obj_End
 
 group1Map88ObjectData:
@@ -897,7 +897,7 @@ group0MapadObjectData:
 	obj_End
 
 group0MapafObjectData:
-	obj_Interaction $6b $0a $68 $88
+	obj_Interaction $6b $0a $68 $88 ; heart piece
 	obj_End
 
 group0MapbbObjectData:
@@ -1084,7 +1084,7 @@ group0Mapb0ObjectData:
 	obj_End
 
 group0Mapb1ObjectData:
-	obj_Interaction $6b $0a $48 $78
+	obj_Interaction $6b $0a $48 $78 ; heart piece
 	obj_End
 
 group0Mapb3ObjectData:
@@ -1123,7 +1123,7 @@ group0Map0fObjectData:
 	obj_End
 
 group0Map1aObjectData:
-	obj_Interaction $6b $05 $28 $38
+	obj_Interaction $6b $05 $28 $38 ; d4 key
 	obj_Interaction $d0 $06 $49 $58
 	obj_End
 
@@ -1160,7 +1160,7 @@ group0Map2cObjectData:
 	obj_End
 
 group0Map2dObjectData:
-	obj_Interaction $6b $0a $18 $38
+	obj_Interaction $6b $0a $18 $38 ; heart piece
 	obj_Pointer group0Map2dEnemyObjectData
 	obj_End
 
@@ -1756,7 +1756,7 @@ group5Map12ObjectData:
 	obj_End
 
 group5Mapb2ObjectData:
-	obj_Interaction $6b $0a $38 $b8
+	obj_Interaction $6b $0a $38 $b8 ; heart piece
 	obj_End
 
 group5Mapb3ObjectData:
@@ -1833,7 +1833,7 @@ group5Mapc4ObjectData:
 	obj_End
 
 group5Mapc7ObjectData:
-	obj_Interaction $6b $0a $28 $78
+	obj_Interaction $6b $0a $28 $78 ; heart piece
 	obj_End
 
 group5Mapc5ObjectData:
@@ -2218,7 +2218,7 @@ group5Mape2ObjectData:
 	obj_End
 
 group5Mape3ObjectData:
-	obj_Interaction $6b $19 $98 $98
+	obj_Interaction $6b $19 $98 $98 ; gasha seed
 	obj_Interaction $a1 $02 $48 $40
 	obj_End
 
@@ -2239,7 +2239,7 @@ group1Mapa0ObjectData:
 
 group1Mapa1ObjectData:
 	obj_Interaction $30 $0d $38 $58
-	obj_Interaction $6b $19 $18 $18
+	obj_Interaction $6b $19 $18 $18 ; gasha seed
 	obj_End
 
 group1Map8aObjectData:

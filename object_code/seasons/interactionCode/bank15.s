@@ -1729,7 +1729,7 @@ interactionCodee6_state1:
 	call playSound
 
 	ld c,$07
-	ld a,TREASURE_ROD_OF_SEASONS
+	ld a,TREASURE_ROD_OF_SEASONS ; RANDO TODO: ROD OF SEASONS
 	call giveTreasure
 
 	jp darkenRoom

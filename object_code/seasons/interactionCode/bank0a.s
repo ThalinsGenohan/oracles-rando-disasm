@@ -4067,7 +4067,7 @@ interactionCodea4:
 	jr nc,+
 	ld a,$02
 	jr smithyLoadIntoVar3f
-	
+
 +
 	ld a,GLOBALFLAG_FINISHEDGAME
 	call checkGlobalFlag
@@ -4458,7 +4458,7 @@ dinState1_subid7:
 	ld (hl),$05
 +
 	jp interactionAnimate
-	
+
 dinState1_subid8:
 	call interactionRunScript
 	ld e,$78
@@ -4467,7 +4467,7 @@ dinState1_subid8:
 	call z,interactionAnimate
 	call objectPreventLinkFromPassing
 	jp objectSetPriorityRelativeToLink_withTerrainEffects
-	
+
 dinState1_subid9:
 	ld e,$78
 	ld a,(de)
@@ -6306,7 +6306,7 @@ seasonsFunc_0a_71ce:
 table_71e6:
 	.db $ff $fe $ff $00
 	.db $01 $02 $01 $00
-	
+
 func_71ee:
 	ld h,d
 	ld l,$7c
@@ -6328,7 +6328,7 @@ func_71ee:
 	ld e,$49
 	ld (de),a
 	jp objectApplySpeed
-	
+
 func_720a:
 	call func_7253
 	ld l,$4b
@@ -6344,7 +6344,7 @@ func_720a:
 	add $01
 	cp $05
 	ret
-	
+
 func_7220:
 	ld h,d
 	ld l,$49
@@ -6357,7 +6357,7 @@ func_7220:
 	ret z
 	ld (hl),a
 	jp interactionSetAnimation
-	
+
 func_7232:
 	call func_7242
 	ld h,d
@@ -6370,7 +6370,7 @@ func_7232:
 	ld (hl),$00
 	scf
 	ret
-	
+
 func_7242:
 	call func_7253
 	ld l,$4a
@@ -6758,7 +6758,7 @@ interactionCodeb9:
 	.db $c8 $ff
 	.db $c8 $ff
 	.db $c8 $ff
-	
+
 @state1:
 	ld e,$45
 	ld a,(de)
@@ -7285,7 +7285,7 @@ interactionCodebe:
 @@state1:
 	call interactionRunScript
 	jp npcFaceLinkAndAnimate
-	
+
 decVar3c:
 	ld h,d
 	ld l,$7c
@@ -7311,7 +7311,7 @@ func_7867:
 	call interactionSetScript
 	call objectSetVisible81
 	jp interactionIncState
-	
+
 func_7886:
 	ld e,$7d
 	ld a,(de)
@@ -7375,7 +7375,7 @@ func_78ce:
 	ret c
 	ld (hl),$01
 	ret
-	
+
 ba_to_beScripts:
 	.dw baScripts
 	.dw bbScripts
@@ -7745,7 +7745,7 @@ interactionCodec5:
 	inc l
 	ldd a,(hl)
 	ldi (hl),a
-	
+
 	rrca
 	cp $04
 	jr z,+
@@ -7829,7 +7829,7 @@ interactionCodec6:
 	jp nz,objectApplySpeed
 
 	call interactionIncState
-	ld a,TREASURE_SWORD
+	ld a,TREASURE_SWORD ; RANDO TODO: Sword
 	ld c,$01
 	call giveTreasure
 	ld a,SND_GETITEM

@@ -892,7 +892,7 @@ subrosianFunc_58dc:
 	ret
 
 subrosian_giveFoolsOre:
-	ld a,TREASURE_FOOLS_ORE
+	ld a,TREASURE_FOOLS_ORE ; RANDO TODO: Fool's Ore
 	jp giveTreasure
 
 
@@ -1358,8 +1358,8 @@ biggoron_createSparkleAtLink:
 	call objectCopyPosition_rawAddress
 	pop de
 	ret
-	
-	
+
+
 ; ==============================================================================
 ; INTERACID_HEAD_SMELTER
 ; ==============================================================================
@@ -1403,7 +1403,7 @@ headSmelter_loadScriptIntoWram:
 headSmelter_throwRedOreIn:
 	ld c,$04
 	jr ++
-	
+
 headSmelter_throwBlueOreIn:
 	ld c,$05
 ++
@@ -1465,14 +1465,14 @@ headSmelter_resetTiles:
 	ld a,$e7
 	ld c,$17
 	jp setTile
-	
+
 headSmelter_disableScreenTransitions:
 	ld a,$01
 --
 	ld (wDisableScreenTransitions),a
 	ld (wInShop),a
 	ret
-	
+
 headSmelter_enableScreenTransitions:
 	xor a
 	jr --
@@ -1727,7 +1727,7 @@ seasonsFunc_15_5d29:
 	ld ($cfd2),a
 	ld a,$04
 	jr +++
-	
+
 seasonsFunc_15_5d32:
 	ld a,$05
 	jr +++
@@ -1845,7 +1845,7 @@ strangeBrothersFunc_15_5dc4:
 	jr nz,strangeBrothersFunc_15_5ddb
 	ldbc TREASURE_FEATHER $02
 	jr strangeBrothersFunc_15_5e00
-	
+
 strangeBrothersFunc_15_5ddb:
 	ld a,(wNumTimesPlayedStrangeBrothersGame)
 	cp $08
@@ -1856,7 +1856,7 @@ strangeBrothersFunc_15_5ddb:
 --
 	ldbc TREASURE_GASHA_SEED $02
 	jr strangeBrothersFunc_15_5e00
-	
+
 strangeBrothersFunc_15_5dee:
 	call seasonsFunc_15_5e20
 	jr c,--
@@ -2912,19 +2912,19 @@ forceLinkState8AndSetDirection:
 zeldaKidnappedRoom_loadImpa:
 	ld bc,zeldaKidnapped_impaData
 	jr zeldaKidnapped_spawnInteraction
-	
+
 zeldaKidnappedRoom_loadZeldaAndMoblins:
 	ld bc,zeldaKidnapped_kingMoblinData
 	call zeldaKidnapped_spawnInteraction
-	
+
 	ld bc,zeldaKidnapped_zeldaData
 	call zeldaKidnapped_spawnInteraction
-	
+
 	ld bc,zeldaKidnapped_moblinData
 	call zeldaKidnapped_spawnInteraction
 	call zeldaKidnapped_spawnInteraction
 	call zeldaKidnapped_spawnInteraction
-	
+
 zeldaKidnapped_spawnInteraction:
 	call getFreeInteractionSlot
 	ret nz

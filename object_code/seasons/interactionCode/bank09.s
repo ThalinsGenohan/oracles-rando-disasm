@@ -2011,7 +2011,7 @@ interactionCode6a:
 @@func_5c81:
 	ld a,$05
 	jr +++
-	
+
 	ld a,$03
 +++
 	ld ($cfd4),a
@@ -2883,7 +2883,7 @@ floodgateKey:
 dragonKey:
 	ldbc TREASURE_DRAGON_KEY $00
 	jp misc1_spawnTreasureBCifRoomFlagBit5NotSet
-	
+
 tarmArmosUnlockingStairs:
 	ld e,Interaction.state
 	ld a,(de)
@@ -3005,7 +3005,7 @@ oreChunkDigSpot:
 	ld (hl),a
 	call objectCopyPosition
 	jp interactionDelete
-	
+
 staticHeartPiece:
 	ldbc TREASURE_HEART_PIECE $00
 misc1_spawnTreasureBCifRoomFlagBit5NotSet:
@@ -3290,7 +3290,7 @@ unblockingD3Dam:
 	ld hl,$cfc0
 	set 7,(hl)
 	jp interactionDelete
-	
+
 replacePirateShipWithQuicksand:
 	ld a,GLOBALFLAG_PIRATE_SHIP_DOCKED
 	call checkGlobalFlag
@@ -3298,7 +3298,7 @@ replacePirateShipWithQuicksand:
 	ld b,INTERACID_QUICKSAND
 	call objectCreateInteractionWithSubid00
 	jp interactionDelete
-	
+
 stolenFeatherGottenHandler:
 	call checkInteractionState
 	jr nz,@state1
@@ -3319,7 +3319,7 @@ stolenFeatherGottenHandler:
 	xor a
 	ld ($ccab),a
 	jp interactionDelete
-	
+
 horonVillagePortalBridgeSpawner:
 	call checkInteractionState
 	jr nz,@state1
@@ -3428,7 +3428,7 @@ d4MinibossRoom:
 	call getThisRoomFlags
 	set 7,(hl)
 	jp interactionDelete
-	
+
 sentBackFromOnoxCastleBarrier:
 	call checkInteractionState
 	jr nz,@state1
@@ -3453,7 +3453,7 @@ sentBackFromOnoxCastleBarrier:
 	ld bc,TX_501b
 	call showText
 	jp interactionDelete
-	
+
 sidescrollingStaticGashaSeed:
 	ldbc TREASURE_GASHA_SEED $04
 	jp misc1_spawnTreasureBCifRoomFlagBit5NotSet
@@ -3533,7 +3533,7 @@ interactionCode6bSubid23:
 	ld a,b
 	call playSound
 	jp interactionDelete
-	
+
 ; TODO: 4 orbs (linked hero's cave?)
 interactionCode6bSubid24:
 	ld a,(wToggleBlocksState)
@@ -3886,7 +3886,7 @@ func_6995:
 	xor a
 	ld ($cc9e),a
 	jp interactionDelete
-	
+
 ;;
 ; @param[out]	b	subid
 ; @param[out]	c	id
@@ -3930,7 +3930,7 @@ strangeBrothersSubId0State1:
 	call unsetGlobalFlag
 	ld a,$0b
 	jp playSound
-	
+
 strangeBrothersSubId0State2:
 	ld a,($cfc0)
 	cp $ff
@@ -4602,7 +4602,7 @@ companionScript_giveFlute:
 	ld (hl),a
 	ld a,(de)
 	ld c,a
-	ld a,TREASURE_FLUTE
+	ld a,TREASURE_FLUTE ; RANDO TODO: FLUTE
 	call giveTreasure
 	ld hl,$cbea
 	set 0,(hl)
@@ -6266,7 +6266,7 @@ interactionCode81:
 	ld bc,TX_2b0e
 	call showText
 	jp interactionDelete
-	
+
 func_7931:
 	ld e,$7b
 	xor a
@@ -6343,7 +6343,7 @@ func_7973:
 	ld a,(de)
 	ld c,a
 	jp removeOreChunkValue
-	
+
 table_7994:
 	.dw mainScripts.subrosianShopScript_ribbon
 	.dw mainScripts.subrosianShopScript_bombUpgrade
@@ -6705,7 +6705,7 @@ interactionCode84:
 	rrca
 	jp c,objectSetInvisible
 	jp objectSetVisible
-	
+
 @runSubid02:
 @runSubid03:
 	call objectApplyComponentSpeed
@@ -7021,7 +7021,7 @@ makuTree_setAppropriateStage:
 	cp $08
 	jr z,@highestEssenceIs8
 	ret
-	
+
 @highestEssenceIs1:
 	; highest essence is 1st essence
 	ld a,>ROOM_SEASONS_12a
@@ -7031,13 +7031,13 @@ makuTree_setAppropriateStage:
 	ret z
 	ld a,$09
 	jr @setStage
-	
+
 @highestEssenceIs5Except4:
 	ld a,GLOBALFLAG_MET_MAKU_WITH_FIRST_5_ESSENCES_EXCEPT_4TH
 	call setGlobalFlag
 	ld a,$0a
 	jr @setStage
-	
+
 @highestEssenceIs5:
 	ld a,GLOBALFLAG_MET_MAKU_WITH_FIRST_5_ESSENCES_EXCEPT_4TH
 	call checkGlobalFlag
@@ -7047,7 +7047,7 @@ makuTree_setAppropriateStage:
 +
 	ld a,$0b
 	jr @setStage
-	
+
 @highestEssenceIs8:
 	ld a,(wc6e5)
 	cp $09
