@@ -245,60 +245,68 @@ interactionData:
 
 interaction54SubidData:
 interaction60SubidData:
-	m_InteractionData $5c $04 $00
-	m_InteractionData $5c $06 $40
-	m_InteractionData $5c $08 $53
-	m_InteractionData $5c $0c $10
-	m_InteractionData $5c $0e $50
-	m_InteractionData $5c $10 $40
-	m_InteractionData $5c $12 $20
-	m_InteractionData $5c $14 $30
-	m_InteractionData $5c $16 $10
-	m_InteractionData $5c $18 $10
-	m_InteractionData $5c $1a $00
-	m_InteractionData $5c $1c $10
-	m_InteractionData $5c $1e $20
-	m_InteractionData $5d $0a $10
-	m_InteractionData $5d $08 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $60 $00 $00
-	m_InteractionData $60 $02 $50
-	m_InteractionData $60 $04 $40
-	m_InteractionData $60 $06 $00
-	m_InteractionData $60 $08 $50
-	m_InteractionData $60 $0a $40
-	m_InteractionData $60 $0c $40
-	m_InteractionData $60 $0e $50
-	m_InteractionData $5f $10 $10
-	m_InteractionData $60 $12 $50
-	m_InteractionData $60 $14 $10
-	m_InteractionData $60 $16 $40
-	m_InteractionData $60 $18 $50
-	m_InteractionData $60 $1a $40
-	m_InteractionData $60 $10 $20
-	m_InteractionData $60 $1e $40
-	m_InteractionData $5f $00 $50
-	m_InteractionData $5f $02 $40
-	m_InteractionData $5f $04 $50
-	m_InteractionData $5f $16 $03
-	m_InteractionData $61 $00 $50
-	m_InteractionData $61 $02 $33
-	m_InteractionData $5d $0c $33
-	m_InteractionData $00 $00 $00
-	m_InteractionData $5c $04 $00
-	m_InteractionData $5c $04 $10
-	m_InteractionData $5c $04 $20
-	m_InteractionData $5c $06 $40
-	m_InteractionData $5c $06 $50
-	m_InteractionData $5c $08 $43
-	m_InteractionData $5c $08 $53
-	m_InteractionData $5c $0c $30
-	m_InteractionData $5d $00 $00
-	m_InteractionData $5d $04 $53
-	m_InteractionData $5d $04 $00
-	m_InteractionData $5d $14 $00
-	m_InteractionData $5d $14 $10
-	m_InteractionData $5d $14 $20
+	m_InteractionData $5c $04 $00 ; 00
+	m_InteractionData $5c $06 $40 ; 01
+	m_InteractionData $5c $08 $53 ; 02
+	m_InteractionData $5c $0c $10 ; 03
+	m_InteractionData $5c $0e $50 ; 04
+	m_InteractionData $5c $10 $40 ; 05
+	m_InteractionData $5c $12 $20 ; 06
+	m_InteractionData $5c $14 $30 ; 07
+	m_InteractionData $5c $16 $10 ; 08
+	m_InteractionData $5c $18 $10 ; 09
+	m_InteractionData $5c $1a $00 ; 0a
+	m_InteractionData $5c $1c $10 ; 0b
+	m_InteractionData $5c $1e $20 ; 0c
+	m_InteractionData $5d $0a $10 ; 0d
+	m_InteractionData $5d $08 $00 ; 0e
+	m_InteractionData $00 $00 $00 ; 0f
+	m_InteractionData $60 $00 $00 ; 10
+	m_InteractionData $60 $02 $50 ; 11
+	m_InteractionData $60 $04 $40 ; 12
+	m_InteractionData $60 $06 $00 ; 13
+	m_InteractionData $60 $08 $50 ; 14
+	m_InteractionData $60 $0a $40 ; 15
+	m_InteractionData $60 $0c $40 ; 16
+	m_InteractionData $60 $0e $50 ; 17
+	m_InteractionData $5f $10 $10 ; 18
+	m_InteractionData $60 $12 $50 ; 19
+	m_InteractionData $60 $14 $10 ; 1a
+	m_InteractionData $60 $16 $40 ; 1b
+	m_InteractionData $60 $18 $50 ; 1c
+	m_InteractionData $60 $1a $40 ; 1d
+	m_InteractionData $60 $10 $20 ; 1e
+	m_InteractionData $60 $1e $40 ; 1f
+	m_InteractionData $5f $00 $50 ; 20
+	m_InteractionData $5f $02 $40 ; 21
+	m_InteractionData $5f $04 $50 ; 22
+	m_InteractionData $5f $16 $03 ; 23
+	m_InteractionData $61 $00 $50 ; 24
+	m_InteractionData $61 $02 $33 ; 25
+	m_InteractionData $5d $0c $33 ; 26
+	m_InteractionData $00 $00 $00 ; 27
+	m_InteractionData $5c $04 $00 ; 28
+	m_InteractionData $5c $04 $10 ; 29
+	m_InteractionData $5c $04 $20 ; 2a
+	m_InteractionData $5c $06 $40 ; 2b
+	m_InteractionData $5c $06 $50 ; 2c
+	m_InteractionData $5c $08 $43 ; 2d
+	m_InteractionData $5c $08 $53 ; 2e
+	m_InteractionData $5c $0c $30 ; 2f
+	m_InteractionData $5d $00 $00 ; 30
+	m_InteractionData $5d $04 $53 ; 31
+	m_InteractionData $5d $04 $00 ; 32
+	m_InteractionData $5d $14 $00 ; 33
+	m_InteractionData $5d $14 $10 ; 34
+	m_InteractionData $5d $14 $20 ; 35
+	m_InteractionData $62 $14 $02
+	m_InteractionData $62 $10 $12
+	m_InteractionData $62 $06 $53
+	m_InteractionData $62 $0a $42
+	m_InteractionData $62 $16 $52
+	m_InteractionData $62 $0c $43
+	m_InteractionData $62 $02 $23
+	m_InteractionData $62 $00 $32
 interaction92SubidData:
 	m_InteractionData $65 $04 $00
 	m_InteractionData $65 $06 $20
