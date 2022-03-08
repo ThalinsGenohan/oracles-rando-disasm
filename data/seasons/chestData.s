@@ -42,6 +42,10 @@ chestGroup1Data:
 	; Subrosia Chests
 	m_ChestData $11, $41, TREASURE_OBJECT_BLUE_ORE_00
 	m_ChestData $22, $58, TREASURE_OBJECT_RED_ORE_00
+	m_ChestData $11, $a1, TREASURE_OBJECT_GASHA_SEED_01
+
+	; Misc Houses
+	m_ChestData $13, $87, TREASURE_OBJECT_GASHA_SEED_01
 	.db $ff
 
 chestGroup2Data:

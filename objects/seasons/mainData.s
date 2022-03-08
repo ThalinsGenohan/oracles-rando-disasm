@@ -287,7 +287,7 @@ group1Map5eObjectData:
 	obj_End
 
 group1Map1bObjectData:
-	obj_Interaction $6b $19 $68 $50 ; gasha seed
+	obj_Interaction $6b $19 $68 $50
 	obj_Interaction $4c $02 $38 $10
 	obj_End
 
@@ -297,7 +297,7 @@ group1Map1cObjectData:
 	obj_End
 
 group1Map1dObjectData:
-	obj_Interaction $6b $19 $48 $48 ; gasha seed
+	obj_Interaction $6b $19 $48 $48
 	obj_Interaction $4c $02 $28 $10
 	obj_Interaction $4c $03 $18 $90
 	obj_End
@@ -314,7 +314,7 @@ group1Map3bObjectData:
 
 group1Map3cObjectData:
 	obj_Interaction $93 $00 $30 $50
-	obj_Interaction $6b $19 $68 $68 ; gasha seed
+	obj_Interaction $6b $19 $68 $68
 	obj_Interaction $4c $02 $68 $10
 	obj_End
 
@@ -567,7 +567,6 @@ group1Map86ObjectData:
 	obj_End
 
 group1Map87ObjectData:
-	obj_Interaction $6b $19 $18 $38 ; gasha seed
 	obj_End
 
 group1Map88ObjectData:
@@ -2218,7 +2217,7 @@ group5Mape2ObjectData:
 	obj_End
 
 group5Mape3ObjectData:
-	obj_Interaction $6b $19 $98 $98 ; gasha seed
+	obj_Interaction $6b $19 $98 $98
 	obj_Interaction $a1 $02 $48 $40
 	obj_End
 
@@ -2239,7 +2238,6 @@ group1Mapa0ObjectData:
 
 group1Mapa1ObjectData:
 	obj_Interaction $30 $0d $38 $58
-	obj_Interaction $6b $19 $18 $18 ; gasha seed
 	obj_End
 
 group1Map8aObjectData:
