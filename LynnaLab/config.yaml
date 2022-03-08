@@ -2,7 +2,7 @@
 
 
 # Set this to either "ages" or "seasons" to change which game LynnaLab edits.
-EditingGame: ages
+EditingGame: seasons
 
 # Normally each tileset has "Main Gfx", "Unique Gfx", "Palette", and "Tilemap" variables. These all
 # mix together to define how the tileset looks.  This adds a confusing layer of indirection when
