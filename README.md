@@ -1,3 +1,13 @@
+# About oracles-rando-disasm
+
+This fork was created in order to modify the game to allow an easier time with my own randomizer project. This repo is not necessary in order to use my randomizer, it is simply easier for me to make the mods needed in assembly. The randomizer program will accept a vanilla ROM and patch it to include these mods.
+
+Currently, the modifications made include:
+* Replacing Essences and other freestanding items with chests, to allow an easier time randomizing them and their slots
+* Making it possible for Essences to be placed in chests, rather than having to be freestanding
+
+# Original README
+
 # About oracles-disasm
 
 This is a complete, documented disassembly of Oracle of Ages and Seasons for the Gameboy
