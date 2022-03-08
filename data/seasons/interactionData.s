@@ -299,61 +299,53 @@ interaction60SubidData:
 	m_InteractionData $5d $14 $00 ; 33
 	m_InteractionData $5d $14 $10 ; 34
 	m_InteractionData $5d $14 $20 ; 35
-	m_InteractionData $62 $14 $02
-	m_InteractionData $62 $10 $12
-	m_InteractionData $62 $06 $53
-	m_InteractionData $62 $0a $42
-	m_InteractionData $62 $16 $52
-	m_InteractionData $62 $0c $43
-	m_InteractionData $62 $02 $23
-	m_InteractionData $62 $00 $32
 interaction92SubidData:
-	m_InteractionData $65 $04 $00
-	m_InteractionData $65 $06 $20
-	m_InteractionData $65 $08 $10
-	m_InteractionData $65 $0a $30
-	m_InteractionData $5d $10 $22
-	m_InteractionData $5d $12 $52
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $5e $00 $33
-	m_InteractionData $5e $04 $13
+	m_InteractionData $65 $04 $00 ; 36
+	m_InteractionData $65 $06 $20 ; 37
+	m_InteractionData $65 $08 $10 ; 38
+	m_InteractionData $65 $0a $30 ; 39
+	m_InteractionData $5d $10 $22 ; 3a
+	m_InteractionData $5d $12 $52 ; 3b
+	m_InteractionData $00 $00 $00 ; 3c
+	m_InteractionData $00 $00 $00 ; 3d
+	m_InteractionData $00 $00 $00 ; 3e
+	m_InteractionData $00 $00 $00 ; 3f
+	m_InteractionData $5e $00 $33 ; 40
+	m_InteractionData $5e $04 $13 ; 41
 interaction17SubidData:
-	m_InteractionData $5e $0c $50
-	m_InteractionData $5e $08 $53
+	m_InteractionData $5e $0c $50 ; 42
+	m_InteractionData $5e $08 $53 ; 43
 interaction18SubidData:
-	m_InteractionData $5e $0e $50
-	m_InteractionData $5e $10 $40
-	m_InteractionData $5e $12 $10
-	m_InteractionData $66 $12 $0a
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $00 $00 $00
-	m_InteractionData $65 $10 $33
-	m_InteractionData $64 $1c $53
-	m_InteractionData $66 $0a $04
-	m_InteractionData $66 $00 $33
-	m_InteractionData $66 $04 $10
-	m_InteractionData $66 $04 $20
-	m_InteractionData $66 $06 $03
-	m_InteractionData $65 $18 $23
-	m_InteractionData $65 $1c $13
-	m_InteractionData $64 $1c $43
-	m_InteractionData $00 $00 $00
+	m_InteractionData $5e $0e $50 ; 44
+	m_InteractionData $5e $10 $40 ; 45
+	m_InteractionData $5e $12 $10 ; 46
+	m_InteractionData $66 $12 $0a ; 47
+	m_InteractionData $00 $00 $00 ; 48
+	m_InteractionData $00 $00 $00 ; 49
+	m_InteractionData $00 $00 $00 ; 4a
+	m_InteractionData $00 $00 $00 ; 4b
+	m_InteractionData $00 $00 $00 ; 4c
+	m_InteractionData $00 $00 $00 ; 4d
+	m_InteractionData $00 $00 $00 ; 4e
+	m_InteractionData $00 $00 $00 ; 4f
+	m_InteractionData $00 $00 $00 ; 50
+	m_InteractionData $00 $00 $00 ; 51
+	m_InteractionData $00 $00 $00 ; 52
+	m_InteractionData $00 $00 $00 ; 53
+	m_InteractionData $65 $10 $33 ; 54
+	m_InteractionData $64 $1c $53 ; 55
+	m_InteractionData $66 $0a $04 ; 56
+	m_InteractionData $66 $00 $33 ; 57
+	m_InteractionData $66 $04 $10 ; 58
+	m_InteractionData $66 $04 $20 ; 59
+	m_InteractionData $66 $06 $03 ; 5a
+	m_InteractionData $65 $18 $23 ; 5b
+	m_InteractionData $65 $1c $13 ; 5c
+	m_InteractionData $64 $1c $43 ; 5d
+	m_InteractionData $00 $00 $00 ; 5e
 interactiondeSubidData:
-	m_InteractionData $66 $12 $0a
-	m_InteractionData $62 $14 $02
+	m_InteractionData $66 $12 $0a ; 5f
+	m_InteractionData $62 $14 $02 ; 60 Essence 1
 	m_InteractionData $62 $10 $12
 	m_InteractionData $62 $06 $53
 	m_InteractionData $62 $0a $42

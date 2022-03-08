@@ -320,14 +320,14 @@ treasureObjectData33:
 
 treasureObjectData40:
 	m_BeginTreasureSubids TREASURE_ESSENCE
-	m_TreasureSubid   $6a, $00, $0e, $36, TREASURE_OBJECT_ESSENCE_00
-	m_TreasureSubid   $6a, $01, $0e, $37, TREASURE_OBJECT_ESSENCE_01
-	m_TreasureSubid   $6a, $02, $0e, $38, TREASURE_OBJECT_ESSENCE_02
-	m_TreasureSubid   $6a, $03, $0e, $39, TREASURE_OBJECT_ESSENCE_03
-	m_TreasureSubid   $6a, $04, $0e, $3a, TREASURE_OBJECT_ESSENCE_04
-	m_TreasureSubid   $6a, $05, $0e, $3b, TREASURE_OBJECT_ESSENCE_05
-	m_TreasureSubid   $6a, $06, $0e, $3c, TREASURE_OBJECT_ESSENCE_06
-	m_TreasureSubid   $6a, $07, $0e, $3d, TREASURE_OBJECT_ESSENCE_07
+	m_TreasureSubid   $6a, $00, $0e, $60, TREASURE_OBJECT_ESSENCE_00
+	m_TreasureSubid   $6a, $01, $0e, $61, TREASURE_OBJECT_ESSENCE_01
+	m_TreasureSubid   $6a, $02, $0e, $62, TREASURE_OBJECT_ESSENCE_02
+	m_TreasureSubid   $6a, $03, $0e, $63, TREASURE_OBJECT_ESSENCE_03
+	m_TreasureSubid   $6a, $04, $0e, $64, TREASURE_OBJECT_ESSENCE_04
+	m_TreasureSubid   $6a, $05, $0e, $65, TREASURE_OBJECT_ESSENCE_05
+	m_TreasureSubid   $6a, $06, $0e, $66, TREASURE_OBJECT_ESSENCE_06
+	m_TreasureSubid   $6a, $07, $0e, $67, TREASURE_OBJECT_ESSENCE_07
 
 treasureObjectData41:
 	m_BeginTreasureSubids TREASURE_TRADEITEM
