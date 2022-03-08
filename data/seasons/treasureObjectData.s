@@ -122,7 +122,7 @@ treasureObjectData:
 	/* $3d */ m_TreasureSubid   $00, $00, $ff, $00, TREASURE_OBJECT_3d_00
 	/* $3e */ m_TreasureSubid   $00, $00, $ff, $00, TREASURE_OBJECT_3e_00
 	/* $3f */ m_TreasureSubid   $00, $00, $ff, $00, TREASURE_OBJECT_3f_00
-	/* $40 */ m_TreasurePointer $0000
+	/* $40 */ m_TreasurePointer treasureObjectData40
 	/* $41 */ m_TreasurePointer treasureObjectData41
 	/* $42 */ m_TreasurePointer treasureObjectData42
 	/* $43 */ m_TreasureSubid   $09, $00, $43, $45, TREASURE_OBJECT_FLOODGATE_KEY_00
@@ -317,6 +317,17 @@ treasureObjectData33:
 	m_TreasureSubid $1a, $00, $18, $40, TREASURE_OBJECT_MAP_00
 	m_TreasureSubid $2a, $00, $18, $40, TREASURE_OBJECT_MAP_01
 	m_TreasureSubid $68, $00, $18, $40, TREASURE_OBJECT_MAP_02
+
+treasureObjectData40:
+	m_BeginTreasureSubids TREASURE_ESSENCE
+	m_TreasureSubid   $6a, $00, $0e, $36, TREASURE_OBJECT_ESSENCE_00
+	m_TreasureSubid   $6a, $01, $0e, $37, TREASURE_OBJECT_ESSENCE_01
+	m_TreasureSubid   $6a, $02, $0e, $38, TREASURE_OBJECT_ESSENCE_02
+	m_TreasureSubid   $6a, $03, $0e, $39, TREASURE_OBJECT_ESSENCE_03
+	m_TreasureSubid   $6a, $04, $0e, $3a, TREASURE_OBJECT_ESSENCE_04
+	m_TreasureSubid   $6a, $05, $0e, $3b, TREASURE_OBJECT_ESSENCE_05
+	m_TreasureSubid   $6a, $06, $0e, $3c, TREASURE_OBJECT_ESSENCE_06
+	m_TreasureSubid   $6a, $07, $0e, $3d, TREASURE_OBJECT_ESSENCE_07
 
 treasureObjectData41:
 	m_BeginTreasureSubids TREASURE_TRADEITEM
