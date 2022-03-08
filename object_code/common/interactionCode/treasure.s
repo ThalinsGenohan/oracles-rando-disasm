@@ -253,8 +253,8 @@ interactionCode60:
 	ld a,(hl)
 	or a
 	call z,@giveTreasure
-	ld a,SND_GETITEM
-	call playSound
+	;ld a,SND_GETITEM
+	;call playSound
 
 	; Wait for player to close text
 @m3State2:
@@ -296,9 +296,9 @@ interactionCode60:
 	call objectSetVisible80
 	call @giveTreasure
 	ldbc $81,$00
-	call @setLinkAnimationAndDeleteIfTextClosed
-	ld a,SND_GETITEM
-	jp playSound
+	jp @setLinkAnimationAndDeleteIfTextClosed
+	;ld a,SND_GETITEM
+	;jp playSound
 
 @m6State2:
 	ld a,(wTextIsActive)
@@ -319,8 +319,8 @@ interactionCode60:
 	ret z
 	call objectSetVisible82
 	call @giveTreasure
-	ld a,SND_GETITEM
-	call playSound
+	;ld a,SND_GETITEM
+	;call playSound
 	ld a,$03
 	jp @gotoStateAndAlwaysUpdate
 
@@ -432,8 +432,8 @@ interactionCode60:
 	ld b,$f2
 	call objectTakePositionWithOffset
 	call objectSetVisible80
-	ld a,SND_GETITEM
-	call playSound
+	;ld a,SND_GETITEM
+	;call playSound
 ++
 	call retIfTextIsActive
 	ld hl,wDisabledObjects
