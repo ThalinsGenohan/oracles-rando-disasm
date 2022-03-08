@@ -6,8 +6,7 @@ Currently, the modifications made include:
 * Replacing Essences and other freestanding items with chests, to allow an easier time randomizing them and their slots
 * Making it possible for Essences to be placed in chests, rather than having to be freestanding
 
-
-# Original README:
+# Original README
 
 # About oracles-disasm
 
